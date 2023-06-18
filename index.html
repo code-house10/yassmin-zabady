@@ -1,0 +1,541 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>شركة الياسمين لنقل الأثاث 01007042378</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cairo:700,400,900&subset=arabic,latin-ext" rel="stylesheet">
+<link href="css/A7faad.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.carousel.effects.min.js"></script>
+<script src="util.min.js"></script>
+<script src="carousel.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="wwb16.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $('#wb_service1').addClass('visibility-hidden');
+      $('#wb_service2').addClass('visibility-hidden');
+      $('#wb_service3').addClass('visibility-hidden');
+      function onScrollLayoutGrid1DividerTop()
+      {
+         var $obj = $('#LayoutGrid1-divider-top');
+         if (!$obj.hasClass('show') && $obj.inViewPort(false))
+         {
+            $obj.addClass('show');
+         }
+      }
+      onScrollLayoutGrid1DividerTop();
+      $(window).scroll(function(event)
+      {
+         onScrollLayoutGrid1DividerTop();
+      });
+      var Carousel1Opts =
+      {
+         delay: 1300,
+         duration: 500,
+         easing: 'easeInQuad',
+         mode: 'slide',
+         direction: 'left',
+         scalemode: 3,
+         pagination: true,
+         pagination_img_default: 'images/Carousel1-default.png',
+         pagination_img_active: 'images/Carousel1-active.png',
+         pause: null,
+         start: 0
+      };
+      $("#Carousel1").carouseleffects(Carousel1Opts);
+      $("#Carousel1_back a").click(function()
+      {
+         $('#Carousel1').carouseleffects('prev');
+      });
+      $("#Carousel1_next a").click(function()
+      {
+         $('#Carousel1').carouseleffects('next');
+      });
+      $("a[href*='#services']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_services').offset().top-80 }, 600, 'linear');
+      });
+      $("a[href*='#planTripLayoutGrid']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#planTripLayoutGrid').offset().top }, 600, 'easeInSine');
+      });
+      $("a[href*='#contactForm']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_contactForm').offset().top }, 600, 'easeInSine');
+      });
+      $("#attractionsCarousel").on('slid.bs.carousel', function(e)
+      {
+         var index = $(e.relatedTarget).index();
+         switch(index)
+         {
+            case 0:
+               $('#Carousel2').bootstrapcarousel(0);
+               break;
+         }
+      });
+      $("#attractionsCarousel").bootstrapcarousel({interval:0, pause: false});
+      function onScrollservice1()
+      {
+         var $obj = $("#wb_service1");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('wb_service1', 'transform-scale-in', 100, 2000);
+         }
+         else
+         if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+         {
+            $obj.removeClass("in-viewport");
+            AnimateCss('wb_service1', 'animate-fade-out', 0, 0);
+         }
+      }
+      if (!$('#wb_service1').inViewPort(true))
+      {
+         $('#wb_service1').addClass("in-viewport");
+      }
+      onScrollservice1();
+      $(window).scroll(function(event)
+      {
+         onScrollservice1();
+      });
+      function onScrollservice2()
+      {
+         var $obj = $("#wb_service2");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('wb_service2', 'transform-scale-in', 100, 2000);
+         }
+         else
+         if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+         {
+            $obj.removeClass("in-viewport");
+            AnimateCss('wb_service2', 'animate-fade-out', 0, 0);
+         }
+      }
+      if (!$('#wb_service2').inViewPort(true))
+      {
+         $('#wb_service2').addClass("in-viewport");
+      }
+      onScrollservice2();
+      $(window).scroll(function(event)
+      {
+         onScrollservice2();
+      });
+      function onScrollservice3()
+      {
+         var $obj = $("#wb_service3");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('wb_service3', 'transform-scale-in', 100, 2000);
+         }
+         else
+         if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+         {
+            $obj.removeClass("in-viewport");
+            AnimateCss('wb_service3', 'animate-fade-out', 0, 0);
+         }
+      }
+      if (!$('#wb_service3').inViewPort(true))
+      {
+         $('#wb_service3').addClass("in-viewport");
+      }
+      onScrollservice3();
+      $(window).scroll(function(event)
+      {
+         onScrollservice3();
+      });
+      $("#headerPanelMenu").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'left', toggle: true});
+      $("#headerPanelMenu_markup ul li a").click(function(event)
+      {
+          $.panel.hide($("#headerPanelMenu_panel"));
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="wb_LayoutGrid2">
+      <div id="LayoutGrid2">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Image3">
+                  <img src="images/222d.png" id="Image3" alt="">
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_Text1">
+                  <span style="color:#FFFFFF;font-family:Cairo;font-size:19px;"><strong>شركة الياسمين لنقل العفش</strong></span>
+               </div>
+               <div id="wb_Text2">
+                  <span style="color:#FFFFFF;"><strong>إتصل على<br>&nbsp; 01007042378 - 01007042378<br></strong></span>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_headerPanelMenu">
+                  <a href="#headerPanelMenu_markup" id="headerPanelMenu">
+                     <span class="line"></span>
+                     <span class="line"></span>
+                     <span class="line"></span>
+                  </a>
+                  <div id="headerPanelMenu_markup">
+                     <ul role="menu">
+                        <li role="menuitem"><a href="#contact" class="nav-link">&#1604;&#1604;&#1578;&#1608;&#1575;&#1589;&#1604;</a></li>
+                        <li role="menuitem"><a href="#planTrip" class="nav-link">&#1593;&#1606; &#1575;&#1604;&#1588;&#1585;&#1603;&#1577;</a></li>
+                        <li role="menuitem"><a href="#services" class="nav-link">&#1582;&#1583;&#1605;&#1575;&#1578;&#1606;&#1575;</a></li>
+                        <li role="menuitem"><a href="#header" class="nav-link">&#1575;&#1604;&#1585;&#1574;&#1610;&#1587;&#1610;&#1577;</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid1">
+      <div id="LayoutGrid1">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text3">
+                  <span style="color:#000000;">.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></span>
+               </div>
+               <div id="wb_Text4">
+                  <span style="color:#000000;font-family:Arial;font-size:8px;">..<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="LayoutGrid1-divider-top">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 138" preserveAspectRatio="none">
+            <polygon class="divider-fill" style="opacity:0.2" points="0,136.28 0,36.28 1000,36.28 1000,136.28 500,46.28"/>
+            <polygon class="divider-fill" style="opacity:0.4" points="0,104.43 0,36.28 1000,36.28 1000,104.43 500,44.43"/>
+            <polygon class="divider-fill" style="opacity:0.6" points="0,72.57 0,36.28 1000,36.28 1000,72.57 500,42.57"/>
+            <rect class="divider-fill" width="1000" height="36.290001" x="0" y="0"/>
+         </svg></div>
+   </div>
+   <div id="wb_LayoutGrid3">
+      <div id="LayoutGrid3">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text5">
+                  <span style="color:#000000;"><strong>شركة الياسمين لنقل الأثاث من افضل الشركات الموجودة في مصر<br><br></strong>يوجد لدينا عماله مدربة علي أعلي مستوي من الخبرة في مجال نقل العفش<br>يوجد لدينا نجارين علي اعلي مستوي من الخبرة والدقة لفك وتركيب اوض النوم المصرية والمستوردة<br>يوجد لدينا فنيين علي اعلي مستوي من الخبرة والدقة لفك وتركيب التكييف<br>يوجد لدينا فنيين كهرباء لفك وتركيب النجف والشاشات والسخانات والستائر علي اعلي مستوي<br></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_Carousel1">
+      <div id="Carousel1">
+         <div class="frame frame-1">
+            <div class="carousel-innerframe">
+            </div>
+         </div>
+         <div class="frame frame-2" style="display:none">
+            <div class="carousel-innerframe">
+            </div>
+         </div>
+         <div class="frame frame-3" style="display:none">
+            <div class="carousel-innerframe">
+            </div>
+         </div>
+         <div class="frame frame-4" style="display:none">
+            <div class="carousel-innerframe">
+            </div>
+         </div>
+      </div>
+      <div id="Carousel1_back"><a class="carousel-control-prev" role="button"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a></div>
+      <div id="Carousel1_next"><a class="carousel-control-next" role="button"><span class="carousel-control-next-icon" aria-hidden="true"></span></a></div>
+   </div>
+   <div id="wb_LayoutGrid6">
+      <div id="LayoutGrid6">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_PhotoGallery1">
+                  <div id="PhotoGallery1">
+                     <div class="thumbnails">
+                        <figure class="thumbnail">
+                           <div class="frame">
+                              <a href="2m.jpeg"><img alt="" src="2m.jpeg" class="image"></a>
+                           </div>
+                        </figure>
+                        <div class="clearfix visible-col1"></div>
+                        <figure class="thumbnail">
+                           <div class="frame">
+                              <a href="4m.jpeg"><img alt="" src="4m.jpeg" class="image"></a>
+                           </div>
+                        </figure>
+                        <div class="clearfix visible-col1"></div>
+                        <figure class="thumbnail">
+                           <div class="frame">
+                              <a href="5m.jpeg"><img alt="" src="5m.jpeg" class="image"></a>
+                           </div>
+                        </figure>
+                        <div class="clearfix visible-col1"></div>
+                        <div class="clearfix visible-col3"></div>
+                        <figure class="thumbnail">
+                           <div class="frame">
+                              <a href="6m.jpeg"><img alt="" src="6m.jpeg" class="image"></a>
+                           </div>
+                        </figure>
+                        <div class="clearfix visible-col3"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid5">
+      <div id="LayoutGrid5">
+         <div class="col-1">
+            <input type="submit" id="Button4" name="نقل عفش بالمقطم" value="شركة نقل عفش بالمقطم">
+            <input type="submit" id="Button1" name="شركة نقل عفش بالشيخ زايد" value="شركة نقل عفش بالشيخ زايد">
+            <input type="submit" id="Button11" name="نقل عفش بالمعادى" value="شركة نقل عفش بالمعادى">
+            <input type="submit" id="Button2" name="نقل عفش بأكتوبر" value="شركة نقل عفش بأكتوبر ">
+            <input type="submit" id="Button9" name="شركة نقل اثاث بالتجمع الخامس" value="شركة نقل اثاث بالشروق">
+            <input type="submit" id="Button8" name="شركة نقل عفش بمدينة نصر" value="شركة نقل عفش بمدينة نصر">
+            <input type="submit" id="Button6" name="نقل أثاث بمدينتى" value="شركة نقل أثاث بمدينتى">
+            <input type="submit" id="Button7" name="نقل عفش بالمعادى" value="شركة نقل عفش بحدائق الاهرام ">
+            <input type="submit" id="Button10" name="نقل عفش بالمعادى" value="شركة نقل عفش بالقاهرة">
+            <input type="submit" id="Button12" name="نقل عفش بالمعادى" value="شركة نقل عفش  بمصر الجديدة">
+            <input type="submit" id="Button5" name="نقل أثاث بالتجمع الخامس" value="شركة نقل عفش بالهرم">
+            <input type="submit" id="Button3" name="نقل عفش بالمعادى" value="شركة نقل عفش بالجيزة">
+            <input type="submit" id="Button13" name="نقل عفش بالمعادى" value=" شركة نقل عفش  بالتجمع الخامس">
+            <input type="submit" id="Button14" name="نقل عفش بالمعادى" value="شـــركة نقل عفش بفيصل">
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid4">
+      <div id="LayoutGrid4">
+         <div class="row">
+            <div class="col-1">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_CardContainer5">
+      <div id="CardContainer5-overlay"></div>
+      <div id="CardContainer5">
+         <div id="wb_Card12">
+            <div id="Card12-card-body">
+               <div id="Card12-card-item0"><i class="fa fa-check-circle"></i></div>
+               <div id="Card12-card-item1">سيارات نقل مغلقة للحفاظ على العفش</div>
+               <div id="Card12-card-item2">تري شركة الياسمين ان خدمات نقل الأثاث لها أهمية كبيرة عند كل مواطن مصري لانها توفر الكثير من الراحة والامان , وتجعله يشعر بالطمأنينة ؛ لانها توفر عليه الكثير من الجهد والعناء المبذول في عمليات النقل ,</div>
+               <hr id="Card12-card-item3">
+            </div>
+         </div>
+         <div id="wb_Card13">
+            <div id="Card13-card-body">
+               <div id="Card13-card-item0"><i class="fa fa-phone-square"></i></div>
+               <div id="Card13-card-item1">نجاريين لفك وتركيب العفش بأمان</div>
+               <div id="Card13-card-item2">تحرص شركتنا علي تقديم خدمة نقل موبيليا كاملة متكاملة لتوفير الراحة والأمان لكل عملائها الكرام و لتحقق رضاهم عن الخدمة التي تقدمها الشركة هو الهدف الحقيقي الذي تسعي اليه الشركة</div>
+               <hr id="Card13-card-item3">
+            </div>
+         </div>
+         <div id="wb_Card14">
+            <div id="Card14-card-body">
+               <div id="Card14-card-item0"><i class="fa fa-suitcase"></i></div>
+               <div id="Card14-card-item1">تغليف شامل للعفش للحفاظ عليه </div>
+               <div id="Card14-card-item2">شركة الياسمين لنقل الاثاث تقدم لكل عملائها خطوات النقل في أسرع وقت ومجموعة من النصائح التي يجب ان نراعيها للتخلص من فوبيا نقل الاثاث و تتم عملية النقل في أمان دون ان تتعرض اي قطعة لأي خدش او كسر حتى و ان كان…</div>
+               <hr id="Card14-card-item3">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_planTrip">
+      <div id="planTrip">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_planTripHeading">
+                  <h2 id="planTripHeading">مميزات شركتنا</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_services">
+      <div id="services-overlay"></div>
+      <div id="services">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_service1">
+                  <span style="color:#E6711D;font-family:Cairo;font-size:24px;line-height:45px;"><strong>مابعد التوصيل</strong><br></span><span style="color:#FFFFFF;font-family:Cairo;font-size:13px;line-height:32px;"><br></span><span style="color:#FFFFFF;font-family:Cairo;font-size:17px;line-height:32px;">بمجرد الانتقال الي البيت الجديد نقوم بتركيب قطع الأثاث الكبيرة, و ترتيبها , كذلك يتم فرز الكراتين و الحقائب و توزيعها علي الاماكن المخصصة لها .<br></span>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_service2">
+                  <span style="color:#E6711D;font-family:Cairo;font-size:20px;line-height:37px;"><strong>النقل داخل وخارج القاهرة<br></strong><br></span><span style="color:#FFFFFF;font-family:Cairo;font-size:17px;line-height:32px;"> فشركة الياسمين من الشركات القليلة جدا المعتمدة في مصر و التي تقدم خدمات نقل الاثاث داخل و خارج القاهرة<br></span>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_service3">
+                  <span style="color:#E6711D;font-family:Cairo;font-size:21px;line-height:39px;"><strong>ونش هيدروليكى للأدوار المرتفعة<br></strong></span><span style="color:#E6711D;font-family:Cairo;font-size:13px;line-height:32px;"><br></span><span style="color:#FFFFFF;font-family:Cairo;font-size:17px;line-height:32px;">نستخدم اوناش هيدروليكية مخصصة لرفع وتنزيل العفش من الأدوار العالية أو فى حالة السلالم الضيقة </span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_planTripLayoutGrid">
+      <div id="planTripLayoutGrid">
+         <div id="wb_planTripCard3">
+            <div id="planTripCard3-card-body">
+               <div id="planTripCard3-card-item0"><i class="fa fa-money"></i></div>
+               <div id="planTripCard3-card-item1">نقل العفش بأقل سعر</div>
+               <div id="planTripCard3-card-item2">تتميز شركتنا بقدرتها على نقل العفش بأقل تكلفة وذلك لأعتمادنا على معدات الشركة المملوكة لها مما يخفض سعر التكلفة على العميل</div>
+            </div>
+         </div>
+         <div id="wb_planTripCard2">
+            <div id="planTripCard2-card-body">
+               <div id="planTripCard2-card-item0"><a href="./index.html"><i class="fa fa-users"></i></a></div>
+               <div id="planTripCard2-card-item1">عمالة مخصصة لنقل العفش بحرص شديد</div>
+               <div id="planTripCard2-card-item2">تعتمد شركتنا على العمالة المهنية والمخصصة للتعامل مع العفش ونقله بحرص وعناية كبيرة</div>
+            </div>
+         </div>
+         <div id="wb_planTripCard1">
+            <div id="planTripCard1-card-body">
+               <div id="planTripCard1-card-item0"><i class="fa fa-clock-o"></i></div>
+               <div id="planTripCard1-card-item1">التزام بالمواعيد مع العميل</div>
+               <div id="planTripCard1-card-item2">من اهم سمات شركتنا هو الالتزام  ودقة المواعيد مع العميل وذلك حرصا على وقت العميل</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_banner">
+      <div id="banner-overlay"></div>
+      <div id="banner">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_bannerHeading1">
+                  <h2 id="bannerHeading1">عمالة مخصصة للتعامل مع الأثاث بعناية </h2>
+               </div>
+               <div id="wb_bannerHeading2">
+                  <h3 id="bannerHeading2">نعمل على مدار الاسبوع والعطلات الرسمية </h3>
+               </div>
+               <a id="bannerButton" href="tel:01007042378">خدمة 24 ساعة</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_attractions">
+      <div id="attractions">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_attractionsCarousel">
+                     <div id="attractionsCarousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                           <li data-target="#attractionsCarousel" data-slide-to="0" class="active"></li>
+                           <li data-target="#attractionsCarousel" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                           <div class="carousel-item frame-1 active">
+                              <div class="carousel-innerframe">
+                              </div>
+                           </div>
+                           <div class="carousel-item frame-2">
+                              <div class="carousel-innerframe">
+                              </div>
+                           </div>
+                        </div>
+                        <a class="carousel-item-left carousel-control" href="#attractionsCarousel" role="button" data-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-item-right carousel-control" href="#attractionsCarousel" role="button" data-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_attractionsText1">
+                     <span style="color:#6D6D6D;font-family:'Cairo';font-weight:900;font-size:16px;line-height:30px;">شركة الياسمين هي احدي أفضل الشركات الرائدة في مجال نقل العفش بجميع أنحاء الجمهورية , يمكنك معها نقل عفش منزلك , شركتك , مكتبك بأمان تام دون أن يحدث له أي ضرر او تلف .</span>
+                  </div>
+                  <a id="attractionsButton" href="tel:01007042378">اتصل اليوم وإحجز ميعاد</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_contact">
+      <div id="contact">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_contactHeading">
+                  <h2 id="contactHeading">تواصل معنا فى أى وقت</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_contactForm">
+      <div id="contactForm-divider-top">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 279.24" preserveAspectRatio="none">
+            <path class="divider-fill" style="opacity:0.25" d="M1000 0S331.54-4.18 0 279.24h1000z"/>
+            <path class="divider-fill" d="M1000 279.24s-339.56-44.3-522.95-109.6S132.86 23.76 0 25.15v254.09z"/>
+         </svg></div>
+      <div id="contactForm">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_contactText1">
+                     <p style="font-size:13px;line-height:25px;color:#4F4F4F;"><span style="font-size:27px;line-height:49.5px;font-weight:bold;">عن شركتنا</span></p>
+                  </div>
+                  <div id="wb_contactText2">
+                     <p style="font-size:20px;line-height:37.5px;color:#6D6D6D;">شركة الياسمين لديها خبرة كافية في مجال النقل , بالاضافة الي انها تمتلك جميع الامكانيات والمعدات والأدوات والطاقة البشرية التي مكنتها من تقديم خدمة نقل عفش مميزة علي أعلي مستوي مستوي يليق عملائها.</p>
+                     <p style="font-size:20px;line-height:37.5px;">&nbsp;</p>
+                     <p style="font-size:20px;line-height:37.5px;color:#6D6D6D;">تتمثل تلك الامكانيات في أحدث وأفضل أجهزة النقل,&nbsp; وأفضل الادوات التي تستخدم في نقل العفش من عدد وأدوات يدوية لحمل الاثاث مثل أشرطة الكتف , وأحدث أدوات فك وتركيب الاثاث, كذلك أجهزة مخصصة لحمل العفش مثل الاوناش الهيدروليكية والاوناش الكهربية و متسلق السلالم الكهربائي , وكذلك أحدث سيارات نقل الاثاث المغلقة منها والمفتوح حتي تقدم الشركة في النهاية خددمة نقل أثاث لا يعلي عليها.</p>
+                     <p style="font-family:Arial;font-size:20px;line-height:22.5px;">&nbsp;</p>
+                  </div>
+                  <a id="contactButton" href="tel:01007042378">تواصل معنا</a>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_contactText3">
+                     <p style="font-size:27px;line-height:49.5px;color:#4F4F4F;"><span style="font-weight:bold;">تواصل معنا</span></p>
+                     <p style="font-family:Arial;font-size:13px;line-height:16px;">&nbsp;</p>
+                     <p style="font-family:Arial;font-size:16px;line-height:18px;font-weight:bold;color:#4F4F4F;">01007042378</p>
+                     <p style="font-family:Arial;font-size:13px;line-height:16px;">&nbsp;</p>
+                     <p style="font-family:Arial;font-size:16px;line-height:18px;font-weight:bold;color:#4F4F4F;">01007042378</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_footer">
+      <div id="footer">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_footerText">
+                  <p style="font-size:19px;line-height:34.5px;color:#FFFFFF;">جميع الحقوق محفوظة لشركة الياسمين لنقل العفش © 2021</p>
+               </div>
+            </div>
+            <div class="col-2">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="Layer2">
+      <div id="Layer2_Container">
+         <div id="wb_Image2">
+            <a href="https://api.whatsapp.com/send/?phone=201007042378&text&app_absent=0"><img src="images/whats88.png" id="Image2" alt=""></a></div>
+      </div>
+   </div>
+   <div id="Layer1">
+      <div id="wb_Image1">
+         <a href="tel:01007042378"><img src="images/cell.png" id="Image1" alt=""></a></div>
+   </div>
+</body>
+</html>
